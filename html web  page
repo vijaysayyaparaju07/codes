@@ -1,0 +1,33 @@
+!DOCTYPE html>
+<html>
+<head>
+<title>Vijay cars world.com</title>
+</head>
+<body style="background-color: rgb(253, 251, 251);">
+
+<h1  style="text-align: center ;" >Welcome to Audi</h1>
+
+<h4 style="text-align: center; "> For more click here <a href="https://www.Audi.com">www.Audi.com</a> </h4>
+
+
+<img src="audi.jpg" alt="bmw" width="250" height="252"> <img src="audi2.jpg" alt="bmw" width="435" height="252"> <img src="audi3.jpg" alt="bmw" width="425" height="252">
+<img src="audi4.jpg" alt="bmw" width="375" height="252">
+<hr>
+
+<h1  style="text-align: center ;" >Welcome to Bmw</h1>
+<h4 style="text-align: center; "> For more click here <a href="https://www.Bmw.com">www.Bmw.com</a> </h4>
+
+<img src="bmw.jpg" alt="bmw" width="380" height="252"> <img src="BMW-5.jpg" alt="bmw" width="380" height="252"> 
+<video width="360" height="300" controls autoplay >
+    <source src="bmw.mp4" type="video/mp4">
+    </video>
+<img src="bmw 1.jpg" alt="bmw" width="370" height="252"> 
+
+<h2 style="text-align: center; color: rgb(146, 7, 35); " >pick one and enjoy your comfortable ride</h2>
+<h3 style="text-align: center;">Exclusive Offers</h3>
+<h3 style="text-align: center;">jubilee hills , Road no:45 <br> contact no: 1234567890</h3>
+
+<h2 style="text-align: center; font-size: xx-large;">Thank You!</h2>
+
+</body>
+</html>
