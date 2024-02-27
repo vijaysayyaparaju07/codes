@@ -1,0 +1,20 @@
+# 1. create a dictionary to store session notes for student
+session_notes = {} # an empty dictionary
+
+# 2. add session notes for student
+student1 = {"name": "Alice", "session date": "2024-02-20", "topic": "Introduction to Python", "notes": "Learned about variables, data types, and operators"} # a dictionary with multiple fields for the first student
+session_notes[student1["name"]] = student1 # add the key-value pair to the dictionary using the name as the key
+
+# 3. add session notes for another student
+student2 = {"name": "Bob", "session date": "2024-02-21", "topic": "Data Structures in Python", "notes": "Learned about lists, tuples, and dictionaries"} # a dictionary with multiple fields for the second student
+session_notes[student2["name"]] = student2 # add the key-value pair to the dictionary using the name as the key
+
+# 4. add the notes to the session notes dictionary
+print(session_notes) # print the dictionary
+
+# 5. accessing session notes for a specific student
+student_name = input("Enter the name of the student: ") # ask the user to enter the name of the student
+if student_name in session_notes: # check if the name is in the dictionary
+    print(session_notes[student_name]) # print the session notes for that student
+else: # if the name is not in the dictionary
+    print("No session notes found for", student_name) # print a message
